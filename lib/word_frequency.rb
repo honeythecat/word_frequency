@@ -1,11 +1,14 @@
 class String
 	define_method(:word_frequency) do
-		phrase_array = self.split()
-		word = Hash.new(0)
+		self = phrase
+		phrase_array = phrase.split()
+		times = phrase_array#length
 		
-		duplicates = 1
-		phrase_array.each do |compare|
-			duplicates = duplicates.+(word[compare])
+		times.each do |find|
+			
+			
+			
+		
 		end
 		duplicates
 	end
