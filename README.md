@@ -5,6 +5,6 @@ In order to run Word Frequency you need to run bundle and make sure that you hav
 Known bugs for this program as of 1/9/15: it doesn't actually work, there are dead ends everywhere, and there are many things that don't exist, but hey, I understand the concept of git now, so that's a thing.
 
 MIT License. Copyright 2015. Created by Heather Anderson. 
-Email: thisisnotanorg.org
+Email: heather@thisisnotanorg.org
 
 Note to my future self: You'll laugh about this someday.
