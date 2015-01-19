@@ -25,4 +25,10 @@ describe("String#word_frequency") do
 		word_to_find = "."
 		expect(phrase.word_frequency(word_to_find)).to(eq(3))
 	end
+	
+	it("for a string it will only count full words") do
+		phrase = ("cat cat")
+		word_to_find = ("at")
+		expect(phrase.word_frequency(word_to_find)).to(equal(0))
+	end
 end
