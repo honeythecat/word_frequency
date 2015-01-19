@@ -13,4 +13,16 @@ describe("String#word_frequency") do
 		word_to_find = ("cat")
 		expect(phrase.word_frequency(word_to_find)).to(eq(2))
 	end
+
+	it("for a string with multiple words and punctuation, counts how many times the given word appears in the string") do
+		phrase = ("the. cat ate everything in in sight.")
+		word_to_find = ("in")
+		expect(phrase.word_frequency(word_to_find)).to(eq(2))
+	end
+	
+	it("for a string with punctuation will count the punctuation") do
+		phrase = (". . . ,")
+		word_to_find = "."
+		expect(phrase.word_frequency(word_to_find)).to(eq(3))
+	end
 end
