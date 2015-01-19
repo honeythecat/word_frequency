@@ -1,10 +1,13 @@
 class String	
 	define_method(:word_frequency) do |word_to_find|
-		phrase = self.split()
-	 	word_to_find = [""]
-		word_frequency = phrase.count(word_to_find)
-		word_frequency.+(1)
+		phrase = self.downcase.split()
+		word_frequency = 0
+		
+		phrase.each() do |word|
+			if word == word_to_find
+				word_frequency += (1)
+			end
+		end
+		word_frequency
 	end
-end
-		
-		
+end		
