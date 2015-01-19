@@ -1,6 +1,6 @@
 class String	
 	define_method(:word_frequency) do |word_to_find|
-		phrase = self.downcase.split()
+		phrase = downcase.split()
 		word_frequency = 0
 		
 		phrase.each() do |word|
