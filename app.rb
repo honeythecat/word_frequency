@@ -9,9 +9,9 @@ get('/') do
   erb(:form)
 end
 
-get('/result') do
+get('/form') do
 	@word = params.fetch('word')
 	@phrase = params.fetch('phrase')
 	@totalnumber = params.fetch('phrase').word_frequency(params.fetch('word'))
-  erb(:form)
+	erb(:result)
 end
