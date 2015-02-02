@@ -1,4 +1,4 @@
-class String	
+class String#word_frequency
 	define_method(:word_frequency) do |word_to_find|
 		phrase = downcase.split()
 		word_frequency = 0
