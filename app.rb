@@ -12,6 +12,6 @@ end
 get('/form') do
 	@word = params.fetch('word')
 	@phrase = params.fetch('phrase')
-	@totalnumber = params.fetch('phrase').word_frequency(params.fetch('word'))
+	@total_number = params.fetch('phrase').word_frequency(params.fetch('word'))
 	erb(:result)
 end

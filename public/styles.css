@@ -1,1 +1,18 @@
-It would be pretty cool if I got to this point.
+.word{
+	color: lightblue;
+	font-size: 30pt;
+}
+
+.phrase{
+	color: lightblue;
+	font-size: 30pt;	
+}
+
+.total_number{
+	color: blue;
+	font-size: 35pt;
+}
+
+.form-line{
+	width: 50%;
+}
