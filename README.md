@@ -1,10 +1,24 @@
-This is a README for a program Word Frequency created in Ruby 2.1.1. In theory it should take a phrase and search for the number of times a specified word is in that phrase. It's a pretty neat idea.
+Word Frequency README by Heather Anderson
 
-In order to run Word Frequency you need to run bundle and make sure that you have the Sinatra server running and open in your browser.
+This is a simple app called Word Frequency created in Ruby 2.1.1. It will take a phrase and search for the number of times a specified word is in that phrase. This a very useful app for anyone unaware of how many times they "lol" in a normal sentence.
 
-Known bugs for this program as of 1/9/15: it doesn't actually work, there are dead ends everywhere, and there are many things that don't exist, but hey, I understand the concept of git now, so that's a thing.
+Setup:
+In your terminal inside this project folder:
+
+	gem install bundle
+
+	bundle
+
+	ruby app.rb
+	 
+	Go to http://localhost:3000 in your browser
+	
+	And theoretically...you should now be able to use Word Frequency!
+	
+
+Known bugs for this program as of 2/2/15: No known bugs.
 
 MIT License. Copyright 2015. Created by Heather Anderson. 
 Email: heather@thisisnotanorg.org
 
-Note to my future self: You'll laugh about this someday.
+Note to my future self: Told you so!
